@@ -16,8 +16,7 @@ go run github.com/Artemiadze/Middleware-Echo/cmd/main
 ## Test
 
 ```shell
-curl --location --request GET '127.0.0.1:8080/status' \
---header 'User-Role: admin'
+curl --location --request GET http://127.0.0.1:8080/status --header "User-Role: admin"
 ```
 
 ## License
