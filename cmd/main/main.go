@@ -24,6 +24,7 @@ func main() {
 	}
 }
 
+// Handler - функция, в которой заключена логика ответа на запрос
 func Handler(c echo.Context) error {
 	// обьект дата
 	d := time.Date(2027, time.January, 1, 0, 0, 0, 0, time.UTC)
